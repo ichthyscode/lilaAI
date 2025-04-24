@@ -11,6 +11,18 @@
 
 Lila (li[chess in sca]la) is a free online chess game server focused on [realtime](https://lichess.org/games) gameplay and ease of use.
 
+---
+
+## AI Coach Project
+
+Lichess now features an **AI Coach**: an integrated chat and voice assistant designed to help users improve at chess. The AI Coach is available exclusively in offline games (vs. AI, vs. self) and analysis mode. It provides real-time advice, feedback, and pattern recognition, and can demonstrate ideas live on the board. The coach uses the ElevenLabs API for high-quality voice synthesis, and can interact via both chat and voice.
+
+- **Purpose:** To offer actionable, level-appropriate advice and feedback, helping users learn and get better at chess in a supportive, interactive way.
+- **Scope:** Only available in offline and analysis modes; never in online or rated play. The coach can highlight moves, show patterns, and answer user questions.
+- **Reference:** For full requirements and rules, see the [AI Coach PDR document](modules/coach/AI_Coach_PDR.md).
+
+---
+
 It features a [search engine](https://lichess.org/games/search),
 [computer analysis](https://lichess.org/ief49lif) distributed with [fishnet](https://github.com/lichess-org/fishnet),
 [tournaments](https://lichess.org/tournament),
